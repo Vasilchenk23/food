@@ -145,3 +145,91 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+/* Frame 3 */
+
+.blockProgram{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockResult{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoBlockResult{
+    width: 550px;
+}
+
+.infoBlockProgram{
+    margin: auto;
+}
+
+.infoBlockProgramP{
+    width: 124px;
+    height: 26px;
+    color: rgba(75, 82, 110, 1);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.infoBlockProgramH2{
+    width: 381px;
+    height: 96px;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoBlockProgramP2{
+    width: 391px;
+    height: 182px;
+    font-size: 20px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoBlockProgramButton{
+    width: 228px;
+    height: 54px;
+    background-color: rgba(250, 200, 40, 1);
+    color: rgba(45, 50, 70, 1);
+    border: none;
+    border-radius: 40px;
+}
+
+.infoBlockResultP{
+    width: 204px;
+    height: 26px;
+    color: rgba(75, 82, 110, 1);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.blockResultImg{
+    margin-left: 160px;
+}
+
+.infoBlockResultH2{
+    width: 451px;
+    height: 96px;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoBlockResultP2{
+    width: 391px;
+    height: 152px;
+    font-size: 20px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoBlockResultButton{
+    width: 228px;
+    height: 54px;
+    background-color: rgba(250, 200, 40, 1);
+    color: rgba(45, 50, 70, 1);
+    border: none;
+    border-radius: 40px;
+}
