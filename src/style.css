@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px; 
+    }
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+  
+
+.frame{
+    background-color: rgba(255, 184, 46, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.zoe{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 10px 0px;
+}
+
+.help{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px 0px;
+}
+
+.blockFood{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navFood{
+    width: 700px;
+    font-size: 20px;
+    height: 500px;
+    margin: 160px 0px 0px 150px;
+}
+
+.blockImg{
+    margin: -5px 0px;
+}
+
+.navFoodButton{
+    width: 208px;
+    height: 54px;
+    border-radius: 40px;
+    background-color: rgba(45, 50, 70, 1);
+    color: rgba(255, 254, 251, 1);
+    border: none;
+}
