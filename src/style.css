@@ -71,3 +71,77 @@ header{
     color: rgba(255, 254, 251, 1);
     border: none;
 }
+
+/* Frame2 */
+
+.blockDream{
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 0px;
+}
+
+.infoBlockDream{
+    align-items: center;
+    margin: auto 150px;
+    width: 700px;
+    justify-content: center;
+}
+
+.infoBlockDreamH2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.infoBlockDreamP{
+    font-size: 24px;
+    text-align: center;
+}
+
+.advantage{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medicine{
+    width: 100%;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(195, 210, 168, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health{
+    width: 100%;
+    height: 320px;
+    margin: auto 0;
+    text-align: center;
+    background-color: rgba(185, 217, 208, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospital{
+    width: 100%;
+    height: 320px;
+    margin: auto 0;
+    text-align: center;
+    background-color: rgba(244, 180, 181, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college{
+    width: 100%;
+    height: 320px;
+    margin: auto 0;
+    text-align: center;
+    background-color: rgba(247, 173, 119, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
