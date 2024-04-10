@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('./font/Roboto-Regular.ttf');
+}
+
 body{
     margin: 0;
+    font-family:Roboto-Regular;
 }
 
 
@@ -223,6 +229,7 @@ header{
     height: 152px;
     font-size: 20px;
     color: rgba(45, 50, 70, 1);
+    margin: 60px 0px 25px;
 }
 
 .infoBlockResultButton{
@@ -294,7 +301,7 @@ header{
     margin: 30px auto 0px;
     display: flex;
     justify-content: start;
-    width: 15%;
+    width: 20%;
     align-items: center;
 }
 
@@ -303,7 +310,7 @@ header{
     margin: 0 auto;
     align-items: center;
     justify-content: start;
-    width: 15%;
+    width: 20%;
 }
 
 .blood{
@@ -311,7 +318,7 @@ header{
     margin: 0 auto;
     align-items: center;
     justify-content: start;
-    width: 15%;
+    width: 20%;
 }
 
 .bloating{
@@ -319,7 +326,7 @@ header{
     margin: 0 auto;
     align-items: center;
     justify-content: start;
-    width: 15%;
+    width: 20%;
 }
 
 .sleep{
@@ -327,7 +334,7 @@ header{
     margin: 0 auto;
     align-items: center;
     justify-content: start;
-    width: 15%;
+    width: 20%;
 }
 
 .blockHealthier{
@@ -354,4 +361,67 @@ header{
     padding: 300px 0px;
     margin: -20px 0px;
     background-color: rgba(247, 198, 199, 1);
+}
+
+/* Frame 5 */
+
+.studyBlock{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    background-color: rgba(251, 248, 243, 1);
+}
+
+.infoStudyBlock{
+    margin: auto 0;
+    height: 300px;
+}
+
+.infoStudyBlockP{
+    width: 172px;
+    height: 26px;
+    font-size: 19px;
+    color: rgba(75, 82, 110, 1);
+}
+
+.infoStudyBlockH2{
+    width: 370px;
+    height: 96px;
+    font-size: 30px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoStudyBlockP2{
+    width: 364px;
+    height: 78px;
+    font-size: 20px;
+    color: rgba(45, 50, 70, 1);
+}
+
+.infoStudyBlockP3{
+    width: 394px;
+    height: 104px;
+    font-size: 20px;
+    color: rgba(45, 50, 70, 1);
+}
+
+/* Frame 6 */
+
+footer{
+    display: flex;
+    width: 50%;
+    justify-content: space-around
+}
+
+.line2{
+    height: 1px;
+    width: 1210px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.copyright{
+    width: 370px;
+    display: flex;
+    justify-content: center;
 }
